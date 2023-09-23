@@ -3,6 +3,15 @@
 
 <h2> 	SOUND PASSION   </h2>
 
+
+
+
+https://github.com/thinkbigwork/PFRJS_Mendez/assets/70818196/1375524e-493f-40d7-a1f3-71a67e6d7248
+
+
+
+
+
 <h3> Todo lo bueno del sonido en un solo lugar</h3>
 
 <p> En este e-commerce se ofrecen productos de la marca Bose, en esta primera etapa se cargaron solo tres categorías y algunos productos con sus respectivos datos: título, descripción, fotografía, stock y precio.
@@ -28,7 +37,11 @@ Para una seguna etapa se planea agregar una galería de imágenes, visualizació
  
 ![(https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 
-![(https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+![
+
+https://github.com/thinkbigwork/PFRJS_Mendez/assets/70818196/97975a7a-1d27-45d4-9677-3fe7bb87ffd4
+
+(https://img.shields.io/badge/Adobe%20Illustrator-FF9A00?style=for-the-badge&logo=adobe%20illustrator&logoColor=white)](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
 
 
