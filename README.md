@@ -19,6 +19,9 @@ https://github.com/thinkbigwork/PFRJS_Mendez/assets/70818196/1375524e-493f-40d7-
 Para una seguna etapa se planea agregar una galería de imágenes, visualización de comentarios y calificación de usuarios. </p>
 
 
+Link al sitio deployed:
+https://sound-passion.netlify.app/
+
 
 ---------
 
