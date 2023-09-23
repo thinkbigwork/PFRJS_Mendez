@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-
+import ItemQuantitySelector from "./ItemQuantitySelector";
 const ItemDetail = ({ item, isLoading, addItem }) => {
   if (isLoading) {
     return <h2>Loading...</h2>;
@@ -10,14 +10,21 @@ const ItemDetail = ({ item, isLoading, addItem }) => {
   }
 
   return (
-    <div>
+    <div className="container ">
+      <div className="row justify-content-md-center">
+        <div className="col-6 mt-5">
       <h1>{item.title}</h1>
       <img src={`../src/assets/${item.image}`}/>
       <p>Descripción: {item.description}</p>
       <p>Precio: ${item.price}</p>
       <p>Stock: {item.stock}</p>
       <p>Categoría: {item.categoryId}</p>
-      <button onClick={() => addItem(item, 1)}>Agregar al carrito</button>
+      <div>
+      <ItemQuantitySelector />
+      </div>
+      <button className="btn me-4 mt-3 btn-outline-primary" onClick={() => addItem(item, 1)}>Agregar al carrito</button>
+      </div>
+      </div>
     </div>
   );
 };

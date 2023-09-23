@@ -57,28 +57,30 @@ const Checkout = () => {
   };
 
 return (
-    <div>
-      <h1>Checkout</h1>
+    <div className="container ">
+      <div className="row justify-content-md-center">
+        <div className="col-4 mt-5">
+      <h1 className="text-center">Checkout</h1>
 
-      <h2>Resumen de la compra</h2>
+      <h2 className="text-center">Resumen de la compra</h2>
 
       {orderId && <p>COMPRA EXITOSA, N° de pedido: {orderId}</p>}
 
       {!orderId && (
         <>
           <div>
-            <h4>Formulario de contacto</h4>
+            <h4 className="mt-5"> Formulario de contacto</h4>
               <form onSubmit={onSubmit}>
                 <Field label="Nombre" name="name" onChange={onChange} />
                 <Field label="Telefono" name="phone" onChange={onChange} />
                 <Field label="Email" name="email" onChange={onChange} />
 
                 <div>
-                  <h4>Productos en el carrito</h4>
+                  <h4 className="mt-4 fs-3 fw-semibold">Productos en el carrito</h4>
                   <ul>
                     {cart.map((item) => (
                       <li key={item.id}>
-                        <p>{item.title}</p>
+                        <p className="fw-bold fs-4">{item.title}</p>
                         <p>Cantidad: {item.quantity}</p>
                         <p>Precio por unidad: ${item.price}</p>
                         <p>Subtotal: ${item.price * item.quantity}</p>
@@ -88,19 +90,21 @@ return (
                 </div>
 
                 <div>
-                    <p>Total de la compra: {total}</p>
+                    <p className="fw-bold">Total de la compra: ${total}</p>
                 </div>
 
                 <div>
-                  <button disabled={!isFormValid} onClick={handleCheckout} type="submit">Finalizar compra</button>
+                  <button className="btn me-4 btn-outline-primary" disabled={!isFormValid} onClick={handleCheckout} type="submit">Finalizar compra</button>
                 </div>
 
               </form>
           </div>
 
-          {isLoading && <p>Procesando compra...</p>}
+          {isLoading && <p className="text-center">Procesando compra...</p>}
         </>
       )}
+        </div>
+      </div>
     </div>
   );
 };

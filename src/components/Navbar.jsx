@@ -6,18 +6,18 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
         <h1>
-          <Link to="/">Sound Passion</Link>
+          <Link className="nav-item mx-4 navbar-brand text-uppercase fs-1 fw-bold"  to="/">Sound Passion</Link>
         </h1>
 
-        <ul>
-          <li>
-          <NavLink to="/category/headphones">Headphones</NavLink>
+        <ul className="navbar-nav mb-lg-0">
+          <li  className="mt-3 me-4">
+          <NavLink className="navbar-brand link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" to="/category/headphones">Headphones</NavLink>
           </li>
-          <li>
-            <NavLink to="/category/speakers">Speakers</NavLink>
+          <li  className="mt-3 me-4">
+            <NavLink className="navbar-brand link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" to="/category/speakers ">Speakers</NavLink>
           </li>
-          <li>
-            <NavLink to="/category/soundglasses">Soundglasses</NavLink>
+          <li  className="mt-3 ">
+            <NavLink className="navbar-brand link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" to="/category/soundglasses">Soundglasses</NavLink>
           </li>
         </ul>
       
